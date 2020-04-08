@@ -28,7 +28,7 @@ dpkg_src(
     arch = "amd64",
     distro = "stretch",
     sha256 = "56537cedf58e6f08bb3eafef514a20016fbfd227850ab810c43e5ffb00f57427",
-    snapshot = "20200219T150721Z",
+    snapshot = "20200408T172825Z",
     url = "https://snapshot.debian.org/archive",
 )
 
@@ -37,14 +37,14 @@ dpkg_src(
     arch = "amd64",
     distro = "stretch-backports",
     sha256 = "e76dc8139979bd35c4f1c56eba1fdead249b969add88b146b64a19de87abbdcf",
-    snapshot = "20200219T150721Z",
+    snapshot = "20200408T172825Z",
     url = "https://snapshot.debian.org/archive",
 )
 
 dpkg_src(
     name = "debian_stretch_security",
-    package_prefix = "https://snapshot.debian.org/archive/debian-security/20200219T150721Z/",
-    packages_gz_url = "https://snapshot.debian.org/archive/debian-security/20200219T150721Z/dists/stretch/updates/main/binary-amd64/Packages.gz",
+    package_prefix = "https://snapshot.debian.org/archive/debian-security/20200408T172825Z/",
+    packages_gz_url = "https://snapshot.debian.org/archive/debian-security/20200408T172825Z/dists/stretch/updates/main/binary-amd64/Packages.gz",
     sha256 = "221c453ba67ed5eaea7ee896b183ab228c5a49ceab087ae007829e038d7ad531",
 )
 
@@ -266,7 +266,7 @@ dpkg_src(
     arch = "amd64",
     distro = "buster",
     sha256 = "889681a6f709a3872833643a2ab28aa5bf4839ec5a8994cd4382f179a6521c63",
-    snapshot = "20200219T150721Z",
+    snapshot = "20200408T172825Z",
     url = "https://snapshot.debian.org/archive",
 )
 
@@ -377,7 +377,7 @@ dpkg_list(
 
 dpkg_src(
     name = "debian10_security",
-    package_prefix = "https://snapshot.debian.org/archive/debian-security/20200219T150721Z/",
-    packages_gz_url = "https://snapshot.debian.org/archive/debian-security/20200219T150721Z/dists/buster/updates/main/binary-amd64/Packages.gz",
+    package_prefix = "https://snapshot.debian.org/archive/debian-security/20200408T172825Z/",
+    packages_gz_url = "https://snapshot.debian.org/archive/debian-security/20200408T172825Z/dists/buster/updates/main/binary-amd64/Packages.gz",
     sha256 = "59e2ff24630ddb40d3b31c51890b8ae7efe861eec3f0af8f3b7fbc27d8f36dc2",
 )
